@@ -1,16 +1,14 @@
 #include <bits/stdc++.h>
 
+using namespace std;
+
 int main()
 {
-	int a, b;
-	scanf("%d %d", &a, &b);
-	int qtd = (b - (a - 1));
-	if (qtd <= 0)
-		printf("0\n");
-	int sum = (qtd/2) * (a + b);
-	if ((a + b) % 2 == 0)
-		sum += (a + b) / 2;
-	printf("%d\n", sum);
+	long long int a, b;
+	scanf("%lld %lld", &a, &b);
+	long long int n = b - a + 1;
+	long long int s = ((a + b) * n)/2;
+	printf("%lld\n", s);
 	return 0;
 }
 
