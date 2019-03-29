@@ -1,1 +1,1 @@
-# Repo to gather code for ICPC
+# Repo for competitive programming code
